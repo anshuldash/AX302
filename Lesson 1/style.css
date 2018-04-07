@@ -1,0 +1,31 @@
+body{
+	font-family: 'Mina', sans-serif;
+	background-color: powderblue;
+	color: navy;
+	text-align: center;
+}
+
+img{
+	height: 80%;
+	margin: 10px;
+}
+
+.boxes{
+	width:80%;
+	height: 150px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+	border: navy 5px double;
+	margin: 10px auto;
+	background-color: cornsilk;
+
+}
+
+.content{
+	background-color: peachpuff;
+	padding: 2px 20px;
+	height: 80%;
+	border-width:5px;
+}

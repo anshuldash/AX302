@@ -1,0 +1,30 @@
+h2{
+  color: white;
+  text-align: center;
+  font-family: monospace;
+}
+
+h1{
+  font-family: monospace;
+  text-align: center;
+  color: #101010;
+}
+
+body{
+  background-color: black;
+}
+
+canvas{
+  border-color: #101010;
+  border-style: ridge;
+  border-width: thick;
+  float: left;
+  background-color: white;
+  border-radius: 25px;
+}
+
+.mover1{
+  width: 25%;
+  height: 500px;
+  float: left;
+}

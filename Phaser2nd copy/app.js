@@ -147,7 +147,7 @@ function moveEnemy(){
         enenmy1.body.velocity.x = 120;  
     }
     }
-functtion endGame(){
+function endGame(){
     player.kill();
     scorelabel.text="GAME OVER! YOU SCORED " + score;
     scoretext.visible = false;

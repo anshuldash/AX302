@@ -146,7 +146,7 @@ function moveEnemy(){
         enemy1.animations.play('right');
         enenmy1.body.velocity.x = 120;  
     }
-    }
+}
 function endGame(){
     player.kill();
     scorelabel.text="GAME OVER! YOU SCORED " + score;

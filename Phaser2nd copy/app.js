@@ -139,7 +139,7 @@ function loseLife(player,enemy){
 }
 
 function moveEnemy(){
-    if(enemy1.x > 759){
+    if(enemy1.x > 765){
         enemy1.animations.play('left');
         enenmy1.body.velocity.x = -120;
     }else if(enemy1.x <405){
